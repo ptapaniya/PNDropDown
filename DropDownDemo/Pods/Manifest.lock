@@ -1,0 +1,16 @@
+PODS:
+  - PNDropDown (1.0.0)
+
+DEPENDENCIES:
+  - PNDropDown (from `../PNDropDown/`)
+
+EXTERNAL SOURCES:
+  PNDropDown:
+    :path: ../PNDropDown/
+
+SPEC CHECKSUMS:
+  PNDropDown: 286519b01b8aeece0d93c9e3ead4399306b4c37b
+
+PODFILE CHECKSUM: 58c5d20a305313205d2cf4a79ef50ba3e5af98b3
+
+COCOAPODS: 1.4.0

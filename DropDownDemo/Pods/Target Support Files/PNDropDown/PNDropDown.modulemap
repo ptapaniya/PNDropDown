@@ -1,0 +1,6 @@
+framework module PNDropDown {
+  umbrella header "PNDropDown-umbrella.h"
+
+  export *
+  module * { export * }
+}
