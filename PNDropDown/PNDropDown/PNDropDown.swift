@@ -12,7 +12,7 @@ public enum UIDropDownAnimationType: Int {
     case Default
 }
 
-public class UIDropDown: UIControl {
+public class PNDropDown: UIControl {
     
     fileprivate var title: UILabel!
     fileprivate var arrow: Arrow!
@@ -191,7 +191,7 @@ public class UIDropDown: UIControl {
     }
 }
 
-extension UIDropDown: UITableViewDataSource {
+extension PNDropDown: UITableViewDataSource {
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return optionsArray.count
@@ -222,7 +222,7 @@ extension UIDropDown: UITableViewDataSource {
     }
 }
 
-extension UIDropDown: UITableViewDelegate {
+extension PNDropDown: UITableViewDelegate {
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         selectedIndex = (indexPath as NSIndexPath).row
