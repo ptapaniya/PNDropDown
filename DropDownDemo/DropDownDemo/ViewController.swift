@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         dropDown.optionsArray = ["India", "USA", "China", "France", "Germany", "Italy", "Canada"]
         dropDown.didSelect { (option, index) in
             self.label.text = "Country : \(option)"
-            print("You just select: \(option) at index: \(index)")
+            print("You select: \(option) at index: \(index)")
         }
         self.view.addSubview(dropDown)
 
